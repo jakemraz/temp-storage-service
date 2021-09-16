@@ -1,6 +1,6 @@
 import * as cdk from '@aws-cdk/core';
 
-export class TempStorageBackendStack extends cdk.Stack {
+export class TempStorageServiceStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 

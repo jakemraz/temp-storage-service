@@ -1,8 +1,8 @@
 {
-  "name": "temp-storage-backend",
+  "name": "temp-storage-service",
   "version": "0.1.0",
   "bin": {
-    "temp-storage-backend": "bin/temp-storage-backend.js"
+    "temp-storage-service": "bin/temp-storage-service.js"
   },
   "scripts": {
     "build": "tsc",
@@ -22,6 +22,9 @@
   },
   "dependencies": {
     "@aws-cdk/core": "1.120.0",
+    "@aws-cdk/aws-apigateway": "1.120.0",
+    "@aws-cdk/aws-lambda": "1.120.0",
+    "@aws-cdk/aws-dynamodb": "1.120.0",
     "source-map-support": "^0.5.16"
   }
 }
